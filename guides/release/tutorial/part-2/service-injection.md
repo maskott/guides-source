@@ -122,7 +122,7 @@ Let's put this component to use by invoking it from the `<Rental::Detailed>` com
   <p>Nice find! This looks like a nice place to stay near {{@rental.city}}.</p>
   <a href="#" target="_blank" rel="external nofollow noopener noreferrer" class="share button">
   <ShareButton
-    @text="Check out {{@rental.title}} on Super Rentals!"
+    @text="Check out {{@rental.title}} on SuperRentals!"
     @hashtags="vacation,travel,authentic,blessed,superrentals"
     @via="emberjs"
   >
